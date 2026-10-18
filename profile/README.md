@@ -25,7 +25,7 @@ flowchart TD
     end
 
     subgraph PlatformIngress["Platform Ingress & Security"]
-        Ingress["Ingress-Nginx (Regional IP: 136.83.131.157)<br/>TLS via cert-manager (Let's Encrypt)"]
+        Ingress["Ingress-Nginx Controller<br/>TLS via cert-manager (Let's Encrypt)"]
     end
 
     subgraph Services["Core Microservices"]
